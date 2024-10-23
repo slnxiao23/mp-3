@@ -247,7 +247,7 @@ export const ButtonContainer = styled.div`
 `;
 
 export const Button = styled.button`
-  flex: 1 1 30%; /* 3 buttons per row */
+  flex: 1 1 30%; 
   margin: 5px;
   padding: 20px; 
   font-size: 18px; 
@@ -256,7 +256,6 @@ export const Button = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 
   &:hover {
     background-color: #2c7bb6;
