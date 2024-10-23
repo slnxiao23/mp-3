@@ -45,7 +45,7 @@ export const LayoutContainer = styled.div`
 
 // Sidebar Styling
 export const SidebarNav = styled.nav`
-  width: 20%;
+  width: 0%;
   background-color: #9ACEEB;
   padding: 20px;
   height: auto;
@@ -93,7 +93,7 @@ export const MainSection = styled.main`
   }
 `;
 
-// Footer Section Styling (Footer in MP1)
+
 export const FooterStyle = styled.footer`
   background-color: #9ACEEB;
   color: white;

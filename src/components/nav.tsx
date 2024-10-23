@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { SidebarNav, List, ListItem } from './style';  // Import the styled components
+import { SidebarNav, List, ListItem } from './style';
 
 export default function Navigation() {
   return (

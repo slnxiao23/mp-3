@@ -1,4 +1,4 @@
-import { MainSection, Heading2, Paragraph, List, ListItem } from './style';  // Import the styled components
+import { MainSection, Heading2, Paragraph, List, ListItem } from './style';
 
 export default function WorkExperience() {
   return (
