@@ -218,7 +218,7 @@ export const CalculatorDiv = styled.div`
   border-radius: 8px;
   max-width: 400px;
   margin: 20px auto;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
 `;
 
 export const Label = styled.label`
@@ -247,7 +247,7 @@ export const ButtonContainer = styled.div`
 `;
 
 export const Button = styled.button`
-  flex: 1 1 30%; /* 3 buttons per row */
+  flex: 1 1 30%; 
   margin: 5px;
   padding: 20px; 
   font-size: 18px; 
@@ -256,11 +256,7 @@ export const Button = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 
-  &:hover {
-    background-color: #2c7bb6;
-  }
 `;
 
 export const Result = styled.h3<{ isNegative: boolean }>`
