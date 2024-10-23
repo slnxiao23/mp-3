@@ -1,10 +1,11 @@
-import { MainSection, Heading2, Paragraph } from './style';  // Import the styled components
+import { MainSection, Heading2, Paragraph } from './style';
 
 export default function Education() {
   return (
     <MainSection>
       <Heading2>Boston University, Boston, MA</Heading2>
-      <Paragraph><strong>BA, Computer Science</strong> September 2022 - May 2025</Paragraph>
+      <Paragraph><strong>BA, Computer Science</strong></Paragraph>
+      <Paragraph>September 2022 - May 2025 </Paragraph>
       <Paragraph>
         Boston University (BU) is a leading private research university located in the heart of Boston. 
         With a strong focus on innovation and interdisciplinary education, BU offers a comprehensive 
@@ -13,7 +14,8 @@ export default function Education() {
       </Paragraph>
   
       <Heading2>Crean Lutheran High School, Irvine, CA</Heading2>
-      <Paragraph><strong>High School Diploma</strong> August 2018 - June 2022</Paragraph>
+      <Paragraph><strong>High School Diploma</strong> </Paragraph>
+      <Paragraph>August 2018 - June 2022</Paragraph>
       <Paragraph>
         Crean Lutheran High School is a private Christian high school known for its strong academic programs 
         and faith-based education. Located in Irvine, California, Crean Lutheran fosters a supportive environment 

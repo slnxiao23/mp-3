@@ -5,7 +5,6 @@ export const RootWrapper = styled.div`
   font-family: 'Roboto', sans-serif;
   background-color: #309AD6;
   height: auto;
-  max-height: none;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -218,7 +217,7 @@ export const CalculatorDiv = styled.div`
   border-radius: 8px;
   max-width: 400px;
   margin: 20px auto;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
 `;
 
 export const Label = styled.label`
@@ -257,9 +256,6 @@ export const Button = styled.button`
   border-radius: 5px;
   cursor: pointer;
 
-  &:hover {
-    background-color: #2c7bb6;
-  }
 `;
 
 export const Result = styled.h3<{ isNegative: boolean }>`
