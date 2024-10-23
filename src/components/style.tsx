@@ -45,7 +45,7 @@ export const LayoutContainer = styled.div`
 
 // Sidebar Styling
 export const SidebarNav = styled.nav`
-  width: 0%;
+  width: 120px;
   background-color: #9ACEEB;
   padding: 20px;
   height: auto;
